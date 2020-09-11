@@ -2033,6 +2033,7 @@
 
       if (index < 0) {
         index = loop ? this.length - 1 : 0;
+        alert('已经是第一张')
       }
 
       this.view(index);
@@ -2052,6 +2053,7 @@
 
       if (index > maxIndex) {
         index = loop ? 0 : maxIndex;
+        alert('已经是最后一张')
       }
 
       this.view(index);
